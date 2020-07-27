@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1000px) {
+  .row {
+    width: 100vw;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #main {
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+  }
+
+  #introduction {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  #introduction h3 {
+    font-size: 250%;
+  }
+
+  #major {
+    font-size: 20px;
+  }
+
+  #elaboration {
+    width: 100%;
+    margin: 0;
+  }
+
+  #contact h1 {
+    font-size: 200%;
+  }
+
+  #video-container {
+    width: 100vw;
+    height: 56.25vw;
+  }
+
+  #video-container iframe {
+    width: 100vw;
+    height: 56.25vw;
+  }
+
+  @media only screen and (max-height: 850px) {
+    html {
+      font-size: 14px;
+    }
+
+    #introduction {
+      top: 100px;
+    }
+  }
+
+  @media only screen and (max-height: 600px) {
+    html {
+      font-size: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    html {
+      font-size: 10px;
+    }
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  html {
+    font-size: 10px;
+  }
+}

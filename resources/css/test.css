@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
+
+html {
+  font-family: "Oxygen";
+  font-size: 18px;
+  color: white;
+}
+
+p {
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-image: url("img/globe-americas-solid.svg");
+  padding-left: 1.2em;
+}
+
+ul li {
+  margin-bottom: 0.5em;
+}
+
+/* -------------------------------- */
+/* Main Button */
+/* -------------------------------- */
+
+#major-container {
+  display: table;
+  margin: auto;
+  width: 100%;
+}
+
+#major {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #005587;
+  padding: 1ex 2ex;
+  font-size: 24px;
+  margin: auto;
+  background-color: #ffd100;
+  text-decoration: none;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+#major:hover {
+  cursor: pointer;
+  color: #003b5c;
+  background-color: #daebfe;
+}
+
+/* -------------------------------- */
+/* Nav Bar */
+/* -------------------------------- */
+
+/* #nav-container {
+  font-size: 180%;
+  text-align: center;
+}
+
+#navbar {
+  display: table;
+  margin: 10px auto;
+  padding: 0;
+}
+
+#navbar li {
+  display: table-cell;
+  border-spacing: 10px;
+  list-style: none;
+}
+
+#navbar a {
+  display: table-cell;
+  vertical-align: middle;
+  color: #005587;
+  width: 12ex;
+  height: 6ex;
+  background-color: #ffd100;
+  text-decoration: none;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+#navbar a:hover {
+  cursor: pointer;
+  color: #003b5c;
+  background-color: #daebfe;
+} */
+
+/* #navbar li:first-of-type a {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+#navbar li:last-of-type a {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+} */
+
+/* -------------------------------- */
+/* Rows and Sections */
+/* -------------------------------- */
+
+section {
+  display: block;
+  min-height: 100vh;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.row {
+  width: 920px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.row:last-of-type {
+  margin-bottom: 0;
+}
+
+.row h1 {
+  font-size: 200%;
+}
+
+.row h2 {
+  font-family: "Roboto";
+  color: #ffe800;
+}
+
+/* -------------------------------- */
+/* Introduction */
+/* -------------------------------- */
+
+#main {
+  width: 100%;
+  background-image: url("img/background2.jpeg");
+  background-position-y: 60px;
+  background-size: cover;
+  padding: 0;
+  height: 100vh;
+}
+
+#logo {
+  width: 100%;
+  margin: 0;
+}
+
+#introduction {
+  height: 100%;
+}
+
+#molecule {
+  position: absolute;
+  background-image: url("img/graphic_element_molecule.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  bottom: 100px;
+  left: 15%;
+  text-align: center;
+}
+
+#introduction a {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+}
+
+#introduction a:visited {
+  color: white;
+}
+
+#link-container {
+  display: table;
+  height: 100%;
+}
+
+#molecule-text {
+  display: table-cell;
+  vertical-align: middle;
+  height: auto;
+}
+
+#ribbon-text {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+#ribbon-text p {
+  display: table;
+  font-size: 36px;
+  background-color: #2774ae;
+  padding: 0px 8px;
+  margin: 6px 0;
+}
+
+#introduction h1 {
+  font-size: 175%;
+  font-weight: 900;
+}
+
+#introduction h2 {
+  color: #2774ae;
+  font-size: 300%;
+}
+
+#introduction h3 {
+  color: #2774ae;
+  font-family: "Roboto";
+  font-size: 300%;
+}
+
+/* -------------------------------- */
+/* Elaboration */
+/* -------------------------------- */
+
+#logo {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+#elaboration {
+  background-color: #2774ae;
+}
+
+/* -------------------------------- */
+/* Nav Bar */
+/* -------------------------------- */
+
+nav {
+  z-index: 9999;
+  width: 100vw;
+  background-color: rgb(7, 76, 140);
+  position: fixed;
+}
+
+#nav-container {
+  height: 60px;
+  padding: 0;
+}
+
+.nav-button {
+  background-color: green;
+  float: right;
+  height: 100%;
+  width: 80px;
+}
+
+.nav-button-content {
+  display: table;
+  border-spacing: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: background-color 0.2s;
+}
+
+.nav-button-content:hover {
+  background-color: pink;
+}
+
+.nav-button-content p {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.nav-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-button:visited {
+  color: white;
+}
+
+/* -------------------------------- */
+/* Footer */
+/* -------------------------------- */
+
+#logo {
+  width: 80%;
+}
+
+footer {
+  background-image: url("img/beach_dark.jpg");
+  background-position-x: center;
+  background-position-y: 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: 100%;
+  padding-top: 10px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color: lightgray;
+}

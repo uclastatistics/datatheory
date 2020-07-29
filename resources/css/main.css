@@ -259,7 +259,7 @@ section {
 /* -------------------------------- */
 
 #logo {
-  width: 80%;
+  width: 100%;
 }
 
 footer {
@@ -268,7 +268,7 @@ footer {
   background-position-y: 40%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   padding-top: 10px;
 }
@@ -286,6 +286,19 @@ footer a {
 
 footer a:hover {
   color: lightgray;
+}
+
+.left{
+  width: 50%;
+  float: left;
+  position: absolute;
+  
+}
+
+.right{
+  width: 50%;
+  float: left;
+  position: relative;
 }
 
 /* -------------------------------- */

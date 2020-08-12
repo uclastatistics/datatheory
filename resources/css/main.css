@@ -185,7 +185,8 @@ section {
 
 #main {
   width: 100%;
-  background-image: url("img/background.jpg");
+  background-image: url("img/Big-data-2.jpg");
+  background-blend-mode: screen;
   background-position: center;
   background-size: cover;
   padding: 0;
@@ -196,6 +197,7 @@ section {
   width: 1100px;
   position: relative;
   top: 30%;
+  text-shadow: 1.5px 0 0 black, 0 1.5px 0 black, 0 -1.5px 0 black, -1.5px 0 0 black; 
 }
 
 #introduction p {
@@ -263,7 +265,8 @@ section {
 }
 
 footer {
-  background-image: url("img/beach_dark.jpg");
+   background-color: black;
+  background-image: url(img/footerimage.png);
   background-position-x: center;
   background-position-y: 40%;
   background-size: cover;

@@ -67,19 +67,16 @@ ul li {
   font-size: 180%;
   text-align: center;
 }
-
 #navbar {
   display: table;
   margin: 10px auto;
   padding: 0;
 }
-
 #navbar li {
   display: table-cell;
   border-spacing: 10px;
   list-style: none;
 }
-
 #major {
   display: table-cell;
   vertical-align: middle;
@@ -92,7 +89,6 @@ ul li {
   text-decoration: none;
   transition: color 0.2s, background-color 0.2s;
 }
-
 #major:hover {
   cursor: pointer;
   color: #003b5c;
@@ -260,7 +256,8 @@ section {
 /* -------------------------------- */
 
 #logo {
-  width: 100%;
+  width: 400px;
+ 
 }
 
 footer {
@@ -271,9 +268,9 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
-  width: 100%;
+  width: 100%
   padding-top: 10px;
-  text-shadow: 1.5px 0 0 black, 0 1.5px 0 black, 0 -1.5px 0 black, -1.5px 0 0 black;
+  
 }
 
 footer p {
@@ -292,15 +289,13 @@ footer a:hover {
 }
 
 .left{
-  width: 50%;
   float: left;
-  position: absolute;
+  position: relative;
   
 }
 
 .right{
-  width: 50%;
-  float: left;
+  float: right;
   position: relative;
 }
 
@@ -349,11 +344,13 @@ footer a:hover {
   transform: scale(1.25);
 }
 
-#centenniel-logo {
-  width: 300px;
+
+.header-logo {
+  width: 175px;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
+
 
 /* -------------------------------- */
 /* Nav Bar */

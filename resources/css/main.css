@@ -407,3 +407,56 @@ nav {
   width: auto;
   height: 80px;
 }
+
+/* -------------------------------- */
+/* Container */
+/* -------------------------------- */
+
+.photo{
+   display: inline-block;
+}
+
+.presentation{
+    display: inline-block;
+    max-width: 60%;
+    margin-left: 20px;
+   vertical-align: top;
+ 
+}
+.container{
+    display: block;
+}
+
+/* -------------------------------- */
+/* Link */
+/* -------------------------------- */
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #ffd100;
+}
+.img-link:hover{
+    webkit-filter : blur(2px);
+    filter: blur(2px);
+}
+
+.faculty-page-button{  
+  border: none;
+  color: #005587;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #FFD100;
+  display: block;
+}
+            
+.faculty-page-button:hover {
+   background-color: #FFFFFF;
+  color: #005587;
+}

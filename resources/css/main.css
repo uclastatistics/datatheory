@@ -29,6 +29,10 @@ ul {
 ul li {
   margin-bottom: 0.5em;
 }
+ol 
+{
+  margin-left: 2rem;
+}
 
 /* -------------------------------- */
 /* Main Button */
@@ -406,4 +410,110 @@ nav {
   left: -100%;
   width: auto;
   height: 80px;
+}
+
+/* -------------------------------- */
+/* Container */
+/* -------------------------------- */
+
+.photo{
+   display: inline-block;
+}
+
+.presentation{
+    display: inline-block;
+    max-width: 60%;
+    margin-left: 20px;
+   vertical-align: top;
+ 
+}
+.container{
+    display: block;
+}
+
+/* -------------------------------- */
+/* Link */
+/* -------------------------------- */
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #ffd100;
+}
+.img-link:hover{
+    webkit-filter : blur(2px);
+    filter: blur(2px);
+}
+
+.faculty-page-button{  
+  border: none;
+  color: #005587;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #FFD100;
+  display: block;
+}
+            
+.faculty-page-button:hover {
+   background-color: #FFFFFF;
+  color: #005587;
+}
+.page-button{  
+  border: none;
+  color: #005587;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: white;
+
+}
+.page-button:hover 
+{
+   background-color: #005587;
+  color: white;
+}
+
+#button-container {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+/*FACULTY*/
+.container_faculty{
+    display:table;
+    box-sizing: border-box;
+    
+    }
+.row_faculty{
+    margin: 10px 0;
+    
+    }
+.column_faculty{
+    display : table-cell;
+    padding: 10px;
+    width: 50%;
+    vertical-align: middle;
+    }
+
+/*SEPARATOR*/
+.page-separator{  
+  border: none;
+  color: #005587;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 25px;
+  background-color: white;
+
 }
